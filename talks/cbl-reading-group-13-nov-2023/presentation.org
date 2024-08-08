@@ -1,0 +1,53 @@
+#+TITLE: A Poisson Process Model for Monte Carlo
+#+author: Gergely Flamich
+#+date: 15/11/2023
+
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+# This is needed to make the speaker notes work
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+OPTIONS: reveal_title_slide:"<h2>%t</h2><h2>%s</h2></br><h4>%a</h4><h4>%d</h4><h6>gergely-flamich.github.io/talks</h6>"
+#+OPTIONS: toc:nil
+#+REVEAL_THEME: white
+#+REVEAL_INIT_OPTIONS: slideNumber:'c/t', transition:'none'
+#+REVEAL_HLEVEL:0
+#+REVEAL_MATHJAX_URL: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+#+REVEAL_EXTRA_CSS: ./presentation_styles.css
+
+* Poisson processes
+- what defines a PP? independence, and mean measure
+- simulation:
+  1. count first, points second
+  2. in time order
+- thinning, mapping and restriction: maybe draw a triangle?
+- superposition theorem
+- equivalence with Gumbel processes in log-space
+- emphasize dual view: all the points are there already, vs computational simulation
+- the intensity transform for Poisson processes: processes of Poisson type
+- Indexing processes
+- I won't be dealin with:
+  1. Markov Chains
+  2. fitting the mean measure of Poisson processes
+
+* Description of PPs
+Two conditions:
+- if $A \cap B = \emptyset$, then $N(A) \perp N(B)$
+- $N(A)$ is Poisson distributded with mean $\mu(A)$.
+
+Assume that the base measure is normalized, things also work when stuff is not normalized
+
+PP is localized: whatever happens in set A is independent of whatever happens outside
+
+* Using PPs for sampling: Exponential Races
+Use spatio-temporal processes over $\Omega = \Reals^+ \times \Reals^D$
+
+* References
+- John F. C. Kingman. Poisson Processes. Oxford Studies in Probability. Clarendon Press, 1992. ISBN
+9780191591242.
+- Chris J. Maddison. A Poisson process model for Monte Carlo. Perturbation, Optimization, and
+Statistics, pp. 193–232, 2016.
+- Chris J. Maddison, Daniel Tarlow, and Tom Minka. A* sampling. In Advances in Neural Information
+Processing Systems, volume 27, pp. 3086–3094, 2014.
+- Lucas Theis and Noureldin Yosri. Algorithms for the communication of samples. In International
+Conference on Machine Learning, 2022.
+- Gergely Flamich, Stratis Markou, and José Miguel Hernández Lobato. Fast relative entropy coding
+with A* coding. In International Conference on Machine Learning, pp. 6548–6577, 2022.

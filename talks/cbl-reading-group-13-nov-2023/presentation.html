@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>A Poisson Process Model for Monte Carlo</title>
+<meta name="author" content="Gergely Flamich"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css" id="theme"/>
+
+<link rel="stylesheet" href="./presentation_styles.css"/>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h2>A Poisson Process Model for Monte Carlo</h2><h2></h2></br><h4>Gergely Flamich</h4><h4>15/11/2023</h4><h6>gergely-flamich.github.io/talks</h6>
+</section>
+
+<section id="slide-org48965b9">
+<h2 id="org48965b9"><span class="section-number-2">1.</span> Poisson processes</h2>
+<ul>
+<li>what defines a PP? independence, and mean measure</li>
+<li>simulation:
+<ol>
+<li>count first, points second</li>
+<li>in time order</li>
+
+</ol></li>
+<li>thinning, mapping and restriction: maybe draw a triangle?</li>
+<li>superposition theorem</li>
+<li>equivalence with Gumbel processes in log-space</li>
+<li>emphasize dual view: all the points are there already, vs computational simulation</li>
+<li>the intensity transform for Poisson processes: processes of Poisson type</li>
+<li>Indexing processes</li>
+<li>I won't be dealin with:
+<ol>
+<li>Markov Chains</li>
+<li>fitting the mean measure of Poisson processes</li>
+
+</ol></li>
+
+</ul>
+
+
+
+</section>
+<section id="slide-org2971cff">
+<h2 id="org2971cff"><span class="section-number-2">2.</span> References</h2>
+<ul>
+<li>John F. C. Kingman. Poisson Processes. Oxford Studies in Probability. Clarendon Press, 1992. ISBN</li>
+<li></li>
+
+<li>Chris J. Maddison. A Poisson process model for Monte Carlo. Perturbation, Optimization, and</li>
+
+</ul>
+<p>
+Statistics, pp. 193–232, 2016.
+</p>
+<ul>
+<li>Chris J. Maddison, Daniel Tarlow, and Tom Minka. A* sampling. In Advances in Neural Information</li>
+
+</ul>
+<p>
+Processing Systems, volume 27, pp. 3086–3094, 2014.
+</p>
+<ul>
+<li>Lucas Theis and Noureldin Yosri. Algorithms for the communication of samples. In International</li>
+
+</ul>
+<p>
+Conference on Machine Learning, 2022.
+</p>
+<ul>
+<li>Gergely Flamich, Stratis Markou, and José Miguel Hernández Lobato. Fast relative entropy coding</li>
+
+</ul>
+<p>
+with A* coding. In International Conference on Machine Learning, pp. 6548–6577, 2022.
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/zoom/zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/notes/notes.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealMarkdown, RevealZoom, RevealNotes],
+slideNumber:'c/t', transition:'none'
+});
+
+</script>
+</body>
+</html>
