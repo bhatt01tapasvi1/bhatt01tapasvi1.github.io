@@ -1,0 +1,134 @@
+- year: 2024
+  talks:
+    - title: An Introduction to Relative Entropy Coding and Its Applications
+      month: July
+      day: 31
+      occasion: Invited talk at the Hungarian Machine Learning Days in Budapest
+      slides: hungarian-ml-days-31-july-2024/presentation.html
+      recording: 
+
+    - title: Some Notes on the Sample Complexity of Approximate Channel Simulation
+      month: July
+      day: 7
+      occasion: Spotlight talk at the Learning to Compress workshop @ ISIT 2024
+      slides: isit-2024-learn-to-compress-spotlight-7-july-2024/presentation.html
+      recording: 
+
+    - title: Practical Channel Simulation
+      month: June
+      day: 20
+      occasion: Job talk for a Research Associate position at Imperial College London
+      slides: imperial-ra-talk-20-jun-2024/presentation.html
+      recording: 
+
+- year: 2023
+  talks:
+    - title: Compression with Bayesian Implicit Neural Representations
+      month: December
+      day: 10
+      occasion: Slides and video presentation accompanying our paper at NeurIPS 2023
+      slides: combiner-neurips-2023/COMBINER_presentation.pdf
+      recording: https://slideslive.com/39010698 
+
+    - title: Greedy Poisson Rejection Sampling
+      month: December
+      day: 10
+      occasion: Slides and video presentation accompanying my paper at NeurIPS 2023
+      slides: gprs-neurips-2023/presentation.html
+      recording: https://slideslive.com/39009648
+
+    - title: Faster Relative Entropy Coding with Greedy Rejection Coding
+      month: December
+      day: 10
+      occasion: Slides and video presentation accompanying our paper at NeurIPS 2023
+      slides: grc-neurips-2023/NeurIPS_2023_Presentation_on_GRC.pdf
+      recording: https://slideslive.com/39011034
+
+    - title: A Poisson Process Model of Monte Carlo
+      month: November
+      day: 13
+      occasion: CBL Reading Group Presentation
+      slides: cbl-reading-group-13-nov-2023/Poisson_Processes_Reading_Group_Notes.pdf
+      recording: 
+
+    - title: Relative Entropy Coding
+      month: October
+      day: 25
+      occasion: CBL Research talk
+      slides: cbl-research-talk-25-oct-2023/presentation.html
+      recording: 
+
+    - title: An Introduction to Relative Entropy Coding
+      month: October
+      day: 18
+      occasion: Talk at Deniz Gündüz's group at Imperial College London
+      slides: imperial-talk-18-oct-2023/presentation.html
+      recording: 
+
+    - title: An Introduction to Relative Entropy Coding
+      month: October
+      day: 04
+      occasion: Talk at Stephan Mandt's group at UC Irvine
+      slides: uci-talk-04-oct-2023/presentation.html
+      recording: 
+
+    - title: Relative Entropy Coding with Greedy Poisson Rejection Sampling
+      month: September
+      day: 29
+      occasion: Presentation at the 2023 Div-F conference at the Engineering Department at Cambridge
+      slides: div-f-conference-29-sep-2023/presentation.html
+      recording: 
+
+    - title: Adaptive Greedy Rejection Sampling
+      month: June
+      day: 26
+      occasion: Presentation at 2023 IEEE International Symposium on Information Theory
+      slides: isit-2023-agrs-26-june-2023/presentation.html
+      recording: 
+
+    - title: Relative Entropy Coding for Learned Data Compression
+      month: April
+      day: 25
+      occasion: AI Seminar at the Cambridge Computer Lab
+      slides: cl-ai-seminar-rec-talk-25-april-2023/presentation.html
+      recording: 
+
+    - title: Channel Simulation with Poisson Processes
+      month: April
+      day: 05
+      occasion: CBL Research Talk
+      slides: cbl-research-talk-05-april-2023/presentation.html
+
+- year: 2022
+  talks:
+    - title: Sampling $$L_p$$-spherical distributions
+      month: November
+      day: 21
+      occasion: CBL Tea Talk
+      slides: sphere-sampling-21-nov-2022/presentation.html
+
+    - title:  Fast Relative Entropy Coding with A* coding
+      month: July
+      day: 19
+      occasion: Slides and video presentation accompanying our paper at ICML 2022
+      slides: 
+      recording: https://slideslive.com/38983496
+
+- year: 2020
+  talks:
+    - title: Compressing Images by Encoding Their Latent Representations with Relative Entropy Coding
+      month: December
+      day: 6
+      occasion: Slides and video presentation accompanying our paper at NeurIPS 2020
+      slides: 
+      recording: https://slideslive.com/38936798
+
+- year: 2019
+  talks:
+    - title: Compression Without Quantization
+      month: December
+      day: 13
+      occasion: Poster spotlight (0:00 - 1:32) accompanying our paper at the Information Theory and Machine Learning Workshop at NeurIPS 2019
+      slides: 
+      recording: https://slideslive.com/38922763 
+
